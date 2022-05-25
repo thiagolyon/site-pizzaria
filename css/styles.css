@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400&display=swap');
+
+:root {
+    --color-red: #F03C42;
+    --bg-light-gray: #E5E5E5;
+    --text-gray: #5E5E5E;
+    --color-yellow: #FFF964;
+    --color-white: #FFFFFF;
+    --color-green: #02B814;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a, a:hover {
+    color: unset;
+    text-decoration: none;
+}
+
+header {
+    background-color: var(--color-red);
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+nav h1 {
+    text-align: center;
+    color: var(--color-yellow);
+    font-size: 24px;
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+#pizzas {
+    padding: 20px 0;
+    background-color: var(--bg-light-gray);
+}
+
+.pizza-card img {
+    border-radius: 12px 0 0 12px;
+    width: 200px;
+}
+
+.pizza-card {
+    display: flex;
+    margin: 20px 0;
+}
+
+.pizza-card-description {
+    background-color: var(--color-white);
+    border-radius: 0 12px 12px 0;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.pizza-card-description h3 {
+    color: var(--text-gray);
+    font-size: 24px;    
+}
+
+.pizza-card-description p {
+    color: var(--text-gray);
+    font-size: 14px;
+}
+
+.pizza-card-description h4 {
+    color: var(--color-green);
+    font-size: 24px;
+}
+
+#comments {
+    padding: 20px 0;
+}
+
+#comments h2 {
+    text-align: center;
+    font-size: 32px;
+    color: var(--text-gray);
+    margin-bottom: 40px;
+}
+
+.card-comment {
+    padding: 25px 20px;
+    background-color: var(--color-yellow);
+    color: var(--color-red);
+    border-radius: 12px;
+    margin: 20px 0;
+}
+
+footer {
+    height: 120px;
+    background-color: var(--color-red);
+    color: var(--color-yellow);
+    display: flex;
+    align-items: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-content a {
+    font-size: 16px;
+}
+
+.footer-content address {
+    font-size: 16px;
+}
